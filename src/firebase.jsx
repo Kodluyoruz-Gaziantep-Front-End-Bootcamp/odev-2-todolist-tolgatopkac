@@ -18,24 +18,3 @@ const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
 export default app;
 
-/* // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyBY7iS2I4JfhxgMQpF8nws9pZPZRjQyzdI",
-  authDomain: "kodluyoruz-todo.firebaseapp.com",
-  projectId: "kodluyoruz-todo",
-  storageBucket: "kodluyoruz-todo.appspot.com",
-  messagingSenderId: "874804856527",
-  appId: "1:874804856527:web:3f3fa86911bda7806759ba",
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-export const db = getFirestore(app);
-export default app;
-   */
